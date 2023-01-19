@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
-const { WEB_PORT = 3001, ORIGIN = "http://localhost:3000" } = process.env;
+const { WEB_PORT = 10000, ORIGIN = "http://localhost:3000" } = process.env;
 
 app.use(
   cors({
